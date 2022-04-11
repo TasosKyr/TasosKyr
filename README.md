@@ -8,7 +8,7 @@ class About extends Me
     {
         return [
             'name' => [
-                'first' => 'Anastasios (Tasos)',
+                'first' => 'Anastasios' || 'Tasos',
                 'last' => 'Kyrtsis',
             ],
             'based_in' => [
@@ -39,7 +39,7 @@ class About extends Me
             Jamstack::class,
             styled-components::class,
             TailwindCss::class,
-            Aws::class,
+            AWS::class,
         ];
     }
 
