@@ -28,7 +28,7 @@ class About extends Me
         ];
     }
 
-    public function getFavouriteTechnologies(): array
+    private function getFavouriteTechnologies(): array
     {
         return [
             Javascript::class,
