@@ -23,7 +23,8 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'Klarna',
-                'position' => 'Software Engineer'         
+                'position' => 'Software Engineer',
+                'specialty' => 'Frontend'
             ]
         ];
     }
