@@ -22,9 +22,9 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Klarna',
+                'company' => 'Prosperity Solutions',
                 'position' => 'Software Engineer',
-                'specialty' => 'Frontend'
+                'specialty' => 'Full-Stack'
             ]
         ];
     }
