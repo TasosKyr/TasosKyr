@@ -22,7 +22,7 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Prosperity Solutions',
+                'company' => 'Heyflow',
                 'position' => 'Software Engineer',
                 'specialty' => 'Full-Stack'
             ]
@@ -34,12 +34,14 @@ class About extends Me
         return [
             Javascript::class,
             Typescript::class,
+            NodeJS::class,
             Reactjs::class,
             Vuejs::class,
             Nextjs::class,
-            Jamstack::class,
-            styled-components::class,
-            TailwindCss::class,
+            Postgresql::class,
+            NestJS::class
+            GraphQL::class,
+            Redis::class,
             AWS::class,
         ];
     }
